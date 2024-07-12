@@ -21,6 +21,30 @@ body{
 h1{
     margin-left: .5rem;
 }
+@media (min-width: 220px) {
+    .container{
+        width: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        align-self: center;
+    }
+    .name-section p{
+        flex-direction: column;
+    }
+    .skills ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .edu-section{
+        margin-right: 1rem;
+    }
+    .project-section{
+        margin-right: 1rem;
+    }
+}
 @media (min-width: 320px) {
     .container{
         width: 50vh;
