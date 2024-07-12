@@ -23,7 +23,7 @@ h1{
 }
 @media (min-width: 320px) {
     .container{
-        width: 55vh;
+        width: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
