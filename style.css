@@ -10,13 +10,22 @@ body{
     text-align: center;
     color: #3057ebe3;
     margin: 1rem;
+    font-family: sans-serif;
+}
+#inactive{
+    pointer-events: none;
+    cursor: default;
 }
 .container{
     width: 100vh;
-    background-color: #78f1f1f7;
+    /* background-color: #78f1f1f7; */
+    background-image: url(./images/IMG20220718175709.jpg);
+    background-size: cover;
     align-self: center;
     border: 2px solid #f4f7f7f5;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+    color: #000;
 }
 h1{
     margin-left: .5rem;
@@ -148,7 +157,7 @@ h1{
 .name-section p a{
     text-decoration: none;
     margin-left: 1rem;
-    color: #3057ebe3;
+    color: #000;
 }
 .name-section p a i{
     margin-right: .5rem;
