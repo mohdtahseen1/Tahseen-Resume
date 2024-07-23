@@ -12,14 +12,9 @@ body{
     margin: 1rem;
     font-family: sans-serif;
 }
-#inactive{
-    pointer-events: none;
-    cursor: default;
-}
+
 .container{
     width: 100vh;
-    /* background-color: #78f1f1f7; */
-    background-image: url(./images/IMG20220718175709.jpg);
     background-size: cover;
     align-self: center;
     border: 2px solid #f4f7f7f5;
@@ -39,8 +34,13 @@ h1{
         text-align: justify;
         align-self: center;
     }
+    .bg{
+        background-color: #78f1f1f7;
+        /* background-image: url(./images/IMG20220718175709.jpg); */
+        }
     .name-section p{
         flex-direction: column;
+        margin-left: 1rem;
     }
     .skills ul{
         display: flex;
@@ -64,8 +64,13 @@ h1{
         text-align: justify;
         align-self: center;
     }
+    .bg{
+        background-color: #78f1f1f7;
+        /* background-image: url(./images/IMG20220718175709.jpg); */
+        }
     .name-section p{
         flex-direction: column;
+        margin-left: 1rem;
     }
     .skills ul{
         display: flex;
@@ -111,6 +116,10 @@ h1{
         width: 105vh;
         align-self: center;
     }
+    .bg{
+        /* background-color: #78f1f1f7; */
+        background-image: url(./images/IMG20220718175709.jpg);
+        }
     .name-section p{
         flex-direction: row;
     }
@@ -156,7 +165,6 @@ h1{
 }
 .name-section p a{
     text-decoration: none;
-    margin-left: 1rem;
     color: #000;
 }
 .name-section p a i{
